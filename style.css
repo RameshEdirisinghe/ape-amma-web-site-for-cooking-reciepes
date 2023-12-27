@@ -1,0 +1,285 @@
+*{
+	margin: 0;
+	padding:0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+.header{
+	min-height: 100vh;
+	width: 100%;
+    background-image:url('bk.jpeg');
+	background-image
+	background-position: center;
+	background-size: cover;
+	position:relative;
+	
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content:space-between;
+    align-items: center;	
+}
+nav img{
+    width:125px;	
+}
+.nav-links{
+   flex: 1;
+   text-align: right;   
+}
+.nav-links ul li {
+     list-style: none;
+     display:inline-block;
+     padding: 8px 12px;
+     position: relative;
+      
+}
+.nav-links ul li a{
+   color: #ffffff;
+   font-weight: bold;
+   text-decoration: none;
+   font-size:20px;
+   
+}
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #0027ff;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+.text-box{
+	width: 90%;
+	color: #000000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	
+}
+.text-box h1{
+	font-size: 62px;
+	margin: 10px 0 40px;
+	color: #000000;
+	
+}
+.text-box p {
+	font-size: 14px;
+	color: #000000;
+	
+}
+.RecipeCatalog{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 100px;	
+}
+h1{
+   font-size: 36px;
+   font-weight: 600;
+   padding-top: 30px;
+	padding-bottom:20px;
+   
+}	
+p{
+	color: #777;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding: 10px;
+}
+.row{
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+}
+.img1{
+	width:300px;
+	height:200px;
+	background-size:100%;
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-left:17%;
+}
+.img2{
+   width:300px;
+	height:200px;
+	background-size:100%;
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-left:8%;
+	margin-top:07.5%;
+	justify-content: space-between;
+}
+.img3{
+	 width:300px;
+	height:200px;
+	background-size:100%;
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-top:06.5%;
+	margin-left:16%;
+	justify-content: space-between;
+}
+.img4{
+	width:300px;
+	height:200px;
+	background-size:100%;
+	margin-top:5%;
+	display:flex;
+	justify-content: space-between;
+	text-align: center;
+	margin-left:17%;
+	margin-top: 6.5%;
+	justify-content: space-between;
+}
+
+.row{
+	flex-basis:31%;
+	background:#d9f3e8;
+	border-radius:10px;
+	margin-bottom:5%;
+	padding:20px 12px;
+	box-sizing: border-box;
+}
+h3{
+  text-align:center;
+  font-weight: 600px;
+  margin:10px 0;
+}
+.individual_recipe{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 50px;	
+}
+h2{
+	width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom:20px;
+}
+ol {
+  list-style-type: none;
+  color: #777;
+}
+h3{
+    width: 80%;
+	margin: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom:20px;
+	color:#000000;
+}
+h4{
+   font-size: 36px;
+   font-weight: 600;
+   padding-top: 30px;
+	padding-bottom:20px;
+	color:#ff1f00;
+   
+}
+.feedbackh1 {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.footer-logo img {
+  width: 150px;
+  height: auto;
+}
+
+.footer-links {
+  margin-bottom: 20px;
+}
+
+.footer-links a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.footer-social {
+  margin-bottom: 20px;
+}
+
+.footer-social a {
+  display: inline-block;
+  margin: 0 5px;
+  color: #000000;
+}
+
+.footer-social i {
+  font-size: 18px;
+  color: #000000;
+}
+
+.footer-copyright {
+  font-size: 12px;
+  color: #666;
+}
